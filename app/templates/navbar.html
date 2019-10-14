@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    {% if title %}
+    <title> {{ title }}</title>
+    {% else %}
+    <title> News App, Where the news live on </title>
+    {% endif %}
+</head>
+
+<body>
+
+    {% block navbar %}
+    {% include 'navbar.html' %}
+    {% endblock %}
+
+
+   
+    {% block content %}
+
+    {% endblock %}
+
+</body>
+
+</html>
