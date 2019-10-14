@@ -25,4 +25,4 @@ def articles(id):
 
 	title = f'NH | {id}'
 
-	return render_template('index.html',title= title,articles = articles)
+	return render_template('articles.html',title= title,articles = articles)
