@@ -5,8 +5,8 @@ class Config:
     General configuration parent class
     '''
 
-    NEWS_API_BASE_URL ="https://newsapi.org/v2/sources?language=en&category={}&apiKey={}"
-    ARTICLES_BASE_URL = "https://newsapi.org/v2/everything?language=en&sources={}&apiKey={}"
+    NEWS_API_BASE_URL ="https://newsapi.org/v2/sources?apiKey=c1ba4412300d4ff791096a1243b88452"
+    ARTICLES_BASE_URL = "https://newsapi.org/v2/top-headlines?country=us&apiKey=c1ba4412300d4ff791096a1243b88452"
     NEWS_API_KEY = os.environ.get('NEWS_API_KEY')
     @staticmethod
     def init_app(app):
