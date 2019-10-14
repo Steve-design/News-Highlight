@@ -1,0 +1,36 @@
+{% extends 'base.html'%}
+{% block content%}
+
+
+<div class="row">
+
+    {% for article in articles %}
+
+    <div class="col-md-3">
+        <div class="thumbnail">
+            <a href="{{article.url}}" target="_blank">
+                <img src="{{article.urlToImage}}" alt="{{article.title}}" class="img-responsive" styles="height:30px">
+            </a>
+            <div class="caption">
+                <h4>{{article.title }}</h4>
+                <p>{{article.description | truncate(80)}}</p>
+                <a href="{{article.url}}" target="_blank"> Read More</a>
+
+            </div>
+            <div class="card-footer">
+                Published at: {{article.publishedAt}}
+
+            </div>
+        </div>
+
+    </div>
+
+    {% endfor %}
+
+</div>
+
+
+
+</div>
+
+{%endblock%}
