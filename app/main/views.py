@@ -13,7 +13,7 @@ def index():
     sports_news = get_news("sports")
     entertainment_news = get_news("entertainment")
     business_news = get_news("business")
-    title = "News App - Where news live on"
+    title = "UpToDate 24/7"
     return render_template('index.html' , title = title, sports_news = sports_news,entertainment_news = entertainment_news, business_news = business_news)  #, 
 
 @main.route('/news/<id>')
