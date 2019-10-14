@@ -57,3 +57,22 @@ def process_results(news_list):
         news_results.append(news_object)
 
     return news_results    
+
+
+def get_articles(id):
+    '''
+    function that processes the articles and returns a list of articles objects
+    '''
+    get_articles_url = articles_url.format(id,apiKey)
+
+    with urllib.request.urlopen(get_articles_url) as url:
+        articles_results = json.loads(url.read())
+
+        articles_object = None
+        if articles_results['articles']:
+            articles_object = process_articles(articles_results['articles'])
+
+
+            
+            
+    return articles_object    
