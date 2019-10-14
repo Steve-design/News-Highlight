@@ -1,7 +1,7 @@
 from flask import render_template,request,redirect,url_for
 from . import main
-from .requests import get_news,get_articles
-from .models import News 
+from ..requests import get_news,get_articles
+from ..models import News 
 
 @main.route('/')
 def index():
@@ -25,4 +25,4 @@ def articles(id):
 
 	title = f'NH | {id}'
 
-	return render_template('articles.html',title= title,articles = articles)
+	return render_template('index.html',title= title,articles = articles)
