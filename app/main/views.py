@@ -19,7 +19,7 @@ def index():
 @main.route('/news/<id>')
 def articles(id):
 	'''
-	view articles page
+	view articles page function
 	'''
 	articles = get_articles(id)
 
