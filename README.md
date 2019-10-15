@@ -32,7 +32,7 @@ Prior Installations :
 * Flask Bootstrap
 
 
-1. Cloning the repository:
+1. Clone the repository;
 
 git clone https://github.com/Steve-design/News-Highlight.git
 
@@ -40,8 +40,10 @@ git clone https://github.com/Steve-design/News-Highlight.git
 Move to News-Highlight
 pip install -r requirements.txt
 
-3. Exporting Configurations
+3. Exporting Configurations; 
+
 export API_KEY='<YOUR API_KEY HERE>'
+   
 export SECRET_KEY='<YOUR SECRET_KEY HERE>'
 
 4. Running the application
@@ -59,7 +61,7 @@ python3.6 manage.py server
 
 
 
-## Support and Contact Details
+## Contact Information
 
 For comments and inquiries contact me on:
 
