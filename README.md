@@ -42,9 +42,9 @@ pip install -r requirements.txt
 
 3. Exporting Configurations; 
 
-export API_KEY='<YOUR API_KEY HERE>'
+export API_KEY={'<YOUR API_KEY HERE>'}
    
-export SECRET_KEY='<YOUR SECRET_KEY HERE>'
+export SECRET_KEY={'<YOUR SECRET_KEY HERE>'}
 
 4. Running the application
 python3.6 manage.py server
@@ -66,7 +66,7 @@ python3.6 manage.py server
 For comments and inquiries contact me on:
 
 ####  smzalendo31@gmail.com
-####  Steve Mwanza -LinkedIn
+####  Steve Mwanza (LinkedIn)
 
 
 
