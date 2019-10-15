@@ -8,10 +8,11 @@ This application helps users to get news from different news online sites across
 
 ## BDD
 | Behaviour        | Input          | Output  |
-| The browser loads| News highlights appear according to categories| The user clicks on the source they want to watch |
+|--------------- | ---------------- | ------------------ |
+| The browser loads| News highlights appear according to categories, the user clicks on what they want to view| More news appear from the source clicked |
 | The browser loads | The user get redirects to the source they clicked and more content appear of the same source, they click on more reading | The news appears in details and the user enjoys their reading |
 
-## User Story
+## Mzalendo-news App
 
 Through the application, a user can:
 
